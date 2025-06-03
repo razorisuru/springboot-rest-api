@@ -1,4 +1,4 @@
-# Spring Boot API Application
+# Spring Boot REST API Application
 
 This is a Spring Boot API application built using JDK 17. It provides a RESTful API for managing resources, with capabilities such as creating, reading, updating, and deleting (CRUD) entities.
 
@@ -26,6 +26,16 @@ To run this application, ensure you have the following installed:
 - **JDK 17**
 - **Maven 3.8+**
 - **MySQL** (or another database depending on your configuration)
+
+## API Endpoints
+
+The frontend communicates with the following backend endpoints:
+
+- `GET /api/users` - Get all users
+- `GET /api/users/:id` - Get a single user
+- `POST /api/users` - Add a new user
+- `PUT /api/users/:id` - Update a user
+- `DELETE /api/users/:id` - Delete a user
 
 ## Installation
 
