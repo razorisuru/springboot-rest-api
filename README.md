@@ -25,12 +25,12 @@ This is a Spring Boot API application built using JDK 17. It provides a RESTful 
 To run this application, ensure you have the following installed:
 - **JDK 17**
 - **Maven 3.8+**
-- **MySQL/PostgreSQL** (or another database depending on your configuration)
+- **MySQL** (or another database depending on your configuration)
 
 ## Installation
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/razorisuru/Springboot-CRUD-App-API
-   cd springboot-api-app
+   git clone https://github.com/razorisuru/springboot-rest-api
+   cd springboot-rest-api
 
